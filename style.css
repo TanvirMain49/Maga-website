@@ -264,3 +264,126 @@ body{
     color: #0a3cce;
     border: none;
 }
+#page9{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.left9{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    font-family: a;
+}
+.left9>h1{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-size: 5vw;
+    font-weight: 100;
+    color: white;
+    line-height: 1;
+}
+.right9{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.right9-center{
+    height: 45%;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+#page10{
+    position: relative;
+    height: 100vh;
+    width: 100wh;
+}
+#right10{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 40%;
+}
+.right-10-inner{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 33.3%;
+    width: 100%;
+    font-family: a;
+    color: white;
+}
+.right-10-inner h1{
+    font-size: 2vw;
+}
+.right-10-inner p{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 80%;
+}
+#page11{
+    position: relative;
+    height: 110vh;
+    width: 100wh;
+    background-color: white;
+    font-family: a;
+}
+#page11>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+.page11-inner{
+    display: flex;
+    position: relative;
+    top: 18%;
+    margin-bottom: 2vw;
+    height: 24%;
+    width: 100%;;
+}
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.left11>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 1.1s;
+}
+.right11{
+    padding-top: 5vw;
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+.right11>h4{
+    font-weight: 100;
+}
+.right11>h1{
+    font-weight: 2vw;
+}
+.left11:hover img{
+    transform: scale(1.2);
+}
